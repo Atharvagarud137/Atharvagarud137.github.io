@@ -38,6 +38,13 @@ export const Hero: React.FC = () => (
       </motion.p>
       <motion.div style={styles.actions} initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: delays[4] }}>
         <a href="#experience" onClick={(e) => scrollTo(e, '#experience')} style={styles.btnPrimary}>View Experience</a>
+        <a
+          href="/Atharva_Garud_Resume.pdf"
+          download="Atharva_Garud_Resume.pdf"
+          style={styles.btnSecondary}
+        >
+          ↓ Resume
+        </a>
         <a href="mailto:atharvag289@gmail.com" style={styles.btnGhost}>Get in Touch →</a>
       </motion.div>
     </div>
@@ -68,6 +75,7 @@ const styles: Record<string, React.CSSProperties> = {
   desc: { fontSize: '1rem', color: 'var(--muted)', maxWidth: 420, lineHeight: 1.85, marginBottom: '2.5rem' },
   actions: { display: 'flex', gap: '1rem', alignItems: 'center' },
   btnPrimary: { fontFamily: 'var(--mono)', fontSize: '0.72rem', letterSpacing: '0.1em', textTransform: 'uppercase', textDecoration: 'none', background: 'var(--navy)', color: 'var(--cream)', padding: '0.85rem 2rem', display: 'inline-block' },
+  btnSecondary: { fontFamily: 'var(--mono)', fontSize: '0.72rem', letterSpacing: '0.1em', textTransform: 'uppercase', textDecoration: 'none', color: 'var(--navy)', border: '1px solid rgba(13,27,42,0.22)', padding: '0.85rem 1.5rem', display: 'inline-block' },
   btnGhost: { fontFamily: 'var(--mono)', fontSize: '0.72rem', letterSpacing: '0.1em', textTransform: 'uppercase', textDecoration: 'none', color: 'var(--navy)', borderBottom: '1px solid rgba(13,27,42,0.22)', paddingBottom: 2 },
   visual: { display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative' },
   photoFrame: { position: 'relative', width: 340, height: 420 },
