@@ -1,6 +1,6 @@
 # Atharva Garud's Portfolio
 [![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Atharvagarud137/Atharvagarud137.github.io)
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Atharvagarud137/Atharvagarud137.github.io)
 This repository contains the source code for my personal portfolio website, built with React and TypeScript, and hosted on GitHub Pages. The live site can be viewed at [atharvagarud137.github.io](https://atharvagarud137.github.io/).
 
 ## Features
