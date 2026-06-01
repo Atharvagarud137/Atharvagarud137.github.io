@@ -15,25 +15,8 @@ export const SectionHeader: React.FC<SectionHeaderProps> = ({ num, title, light 
 );
 
 const styles: Record<string, React.CSSProperties> = {
-  header: {
-    display: 'flex',
-    alignItems: 'baseline',
-    gap: '1.5rem',
-    marginBottom: '3.5rem',
-  },
-  num: {
-    fontFamily: 'var(--mono)',
-    fontSize: '0.65rem',
-    letterSpacing: '0.1em',
-  },
-  title: {
-    fontFamily: 'var(--serif)',
-    fontSize: 'clamp(2rem, 3.5vw, 2.8rem)',
-    fontWeight: 300,
-    lineHeight: 1.15,
-  },
-  line: {
-    flex: 1,
-    height: 1,
-  },
+  header: { display: 'flex', alignItems: 'baseline', gap: '1rem', marginBottom: '3rem' },
+  num: { fontFamily: 'var(--mono)', fontSize: '0.65rem', letterSpacing: '0.1em', flexShrink: 0 },
+  title: { fontFamily: 'var(--serif)', fontSize: 'clamp(1.75rem, 4vw, 2.8rem)', fontWeight: 300, lineHeight: 1.15, flexShrink: 0 },
+  line: { flex: 1, height: 1, minWidth: 20 },
 };
