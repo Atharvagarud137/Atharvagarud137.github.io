@@ -43,8 +43,7 @@ export const Navbar: React.FC = () => {
         transition={{ duration: 0.3 }}
       >
         <a href="#hero" onClick={(e) => scrollTo(e, '#hero')} style={styles.logo}>
-          <img src="/atharva-mark.png?v=2" alt="Atharva Garud logo" style={{ width: 38, height: 38, objectFit: 'contain' }} />
-          <span>A<span style={{ color: 'var(--gold)' }}>.</span>Garud</span>
+          <img src="/atharva-mark.png?v=3" alt="Atharva Garud" style={{ width: 54, height: 54, objectFit: 'contain' }} />
         </a>
 
         {/* Desktop links */}
