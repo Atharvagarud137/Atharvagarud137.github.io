@@ -82,8 +82,8 @@ export const Hero: React.FC = () => {
           <a href="#experience" onClick={(e) => scrollTo(e, '#experience')} style={{ ...styles.btnPrimary, width: isMobile ? '100%' : 'auto', textAlign: 'center' }}>
             View Experience
           </a>
-          <a href="/Atharva_Garud_Resume.pdf" download="Atharva_Garud_Resume.pdf" style={{ ...styles.btnSecondary, width: isMobile ? '100%' : 'auto', textAlign: 'center' }}>
-            ↓ Resume
+          <a href="https://drive.google.com/file/d/1thm_4dX9kZuoIYGrRgpHPOjIyoOldobY/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" style={{ ...styles.btnSecondary, width: isMobile ? '100%' : 'auto', textAlign: 'center' }}>
+            ↗ View Resume
           </a>
           <a href="mailto:atharvag289@gmail.com" style={styles.btnGhost}>
             Get in Touch →
