@@ -94,7 +94,7 @@ export const Navbar: React.FC = () => {
               </motion.a>
             ))}
             <a
-              href="https://drive.google.com/file/d/1thm_4dX9kZuoIYGrRgpHPOjIyoOldobY/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1M9c8GWxgPglhBUTvAeRynwEHgBRuujD0/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
