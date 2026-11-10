@@ -10,6 +10,12 @@ This repository contains the source code for my personal portfolio website, buil
 *   **Component-Based Architecture:** Structured into reusable React components for sections like Hero, About, Experience, Skills, Projects, and Contact.
 *   **Responsive:** Features a mobile-friendly navigation overlay to ensure a seamless experience on all devices.
 
+## Branding
+
+*   **Portfolio logo:** The custom AG monogram is used as the sole brand mark in the navigation bar and as the browser favicon.
+*   **Logo assets:** `atharva-mark.png` is the root-level asset used by the GitHub Pages deployment. The matching `public/atharva-mark.png` copy is included for Vite's public asset pipeline.
+*   **Navbar behavior:** The navigation bar displays the logo without a separate text wordmark, keeping the brand identity compact and consistent across desktop and mobile layouts.
+
 ## Tech Stack
 
 *   **Frontend:** React, TypeScript
