@@ -16,6 +16,13 @@ This repository contains the source code for my personal portfolio website, buil
 *   **Logo assets:** `atharva-mark.png` is the root-level asset used by the GitHub Pages deployment. The matching `public/atharva-mark.png` copy is included for Vite's public asset pipeline.
 *   **Navbar behavior:** The navigation bar displays the logo without a separate text wordmark, keeping the brand identity compact and consistent across desktop and mobile layouts.
 
+## Resume
+
+*   **LaTeX source:** [resume/Atharva_Garud_Resume.tex](resume/Atharva_Garud_Resume.tex)
+*   The source is formatted for a one-page A4 resume and includes direct links to the portfolio and featured project repositories.
+*   To generate the PDF locally, run `pdflatex resume/Atharva_Garud_Resume.tex` from the repository root (with a LaTeX distribution installed).
+*   Keep the downloadable resume file and the source in sync whenever experience, project metrics, or certifications change.
+
 ## Tech Stack
 
 *   **Frontend:** React, TypeScript
