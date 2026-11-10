@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
       gap: isMobile ? '0.75rem' : '1rem',
     }}>
       <span style={styles.logo}>A<span style={{ color: 'var(--gold)' }}>.</span>Garud</span>
-      <p style={styles.text}>© 2025 Atharva Garud · QA Automation Engineer · Pune, India</p>
+      <p style={styles.text}>© 2026 Atharva Garud · SDET &amp; Automation Engineer · Pune, India</p>
       <p style={styles.text}>atharvagarud137.github.io</p>
     </footer>
   );
