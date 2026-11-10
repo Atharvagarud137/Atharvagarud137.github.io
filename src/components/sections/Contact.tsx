@@ -64,9 +64,7 @@ export const Contact: React.FC = () => {
       <div style={{ ...styles.grid, gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: isMobile ? '2.5rem' : '5rem' }}>
         <div>
           <p style={styles.intro}>
-            Open to senior QA roles, automation-focused engineering positions, and fintech
-            opportunities. If you're building something in payments, fraud detection, or developer
-            tooling — I'd like to hear about it.
+            Open to SDET, QA Automation, and software quality engineering opportunities. I'm particularly interested in teams working on payment systems, test infrastructure, API quality, and AI-assisted engineering tools.
           </p>
           <div style={styles.links}>
             {contactLinks.map((link) => <ContactLinkItem key={link.id} link={link} isMobile={isMobile} />)}
