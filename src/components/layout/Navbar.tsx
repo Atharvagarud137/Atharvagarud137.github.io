@@ -94,12 +94,13 @@ export const Navbar: React.FC = () => {
               </motion.a>
             ))}
             <a
-              href="/Atharva_Garud_Resume.pdf"
-              download="Atharva_Garud_Resume.pdf"
+              href="https://drive.google.com/file/d/1thm_4dX9kZuoIYGrRgpHPOjIyoOldobY/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
               style={styles.mobileResume}
             >
-              ↓ Download Resume
+              ↗ View Resume
             </a>
           </motion.div>
         )}
