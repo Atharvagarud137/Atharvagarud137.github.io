@@ -43,7 +43,8 @@ export const Navbar: React.FC = () => {
         transition={{ duration: 0.3 }}
       >
         <a href="#hero" onClick={(e) => scrollTo(e, '#hero')} style={styles.logo}>
-          A<span style={{ color: 'var(--gold)' }}>.</span>Garud
+          <img src="/atharva-mark.png" alt="Atharva Garud logo" style={{ width: 34, height: 34, objectFit: 'contain' }} />
+          <span>A<span style={{ color: 'var(--gold)' }}>.</span>Garud</span>
         </a>
 
         {/* Desktop links */}
@@ -131,6 +132,7 @@ const NavLink: React.FC<{ href: string; label: string }> = ({ href, label }) => 
 
 const styles: Record<string, React.CSSProperties> = {
   logo: {
+    display: 'inline-flex', alignItems: 'center', gap: '0.55rem',
     fontFamily: 'var(--serif)', fontSize: '1.35rem', fontWeight: 500,
     color: 'var(--navy)', textDecoration: 'none', letterSpacing: '0.01em',
   },
