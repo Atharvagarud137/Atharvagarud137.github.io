@@ -47,7 +47,7 @@ export const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: delays[0] }}
         >
-          QA Automation Engineer
+          SDET &amp; Automation Engineer
         </motion.p>
 
         <motion.h1
@@ -59,7 +59,7 @@ export const Hero: React.FC = () => {
         </motion.h1>
 
         <motion.p style={styles.title} initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: delays[2] }}>
-          ISTQB Certified &nbsp;·&nbsp; Fintech & Payments &nbsp;·&nbsp; Pune, India
+          ISTQB Certified &nbsp;·&nbsp; Payments &amp; Fintech &nbsp;·&nbsp; Pune, India
         </motion.p>
 
         <motion.p
@@ -67,8 +67,7 @@ export const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: delays[3] }}
         >
-          Building robust test automation frameworks for high-volume payment systems.
-          2+ years turning complex fintech pipelines into reliable, thoroughly validated software.
+          SDET and Automation Engineer with 2+ years of experience designing high-volume payment transaction testing for global financial networks. Focused on Python, Playwright, Pytest, API validation, and reliable automation workflows.
         </motion.p>
 
         <motion.div
@@ -83,11 +82,7 @@ export const Hero: React.FC = () => {
           <a href="#experience" onClick={(e) => scrollTo(e, '#experience')} style={{ ...styles.btnPrimary, width: isMobile ? '100%' : 'auto', textAlign: 'center' }}>
             View Experience
           </a>
-          <a
-            href="/Atharva_Garud_Resume.pdf"
-            download="Atharva_Garud_Resume.pdf"
-            style={{ ...styles.btnSecondary, width: isMobile ? '100%' : 'auto', textAlign: 'center' }}
-          >
+          <a href="/Atharva_Garud_Resume.pdf" download="Atharva_Garud_Resume.pdf" style={{ ...styles.btnSecondary, width: isMobile ? '100%' : 'auto', textAlign: 'center' }}>
             ↓ Resume
           </a>
           <a href="mailto:atharvag289@gmail.com" style={styles.btnGhost}>
@@ -96,7 +91,6 @@ export const Hero: React.FC = () => {
         </motion.div>
       </div>
 
-      {/* Photo — hidden on mobile, shown on tablet+ */}
       {!isMobile && (
         <motion.div style={styles.visual} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.6 }}>
           <div style={{ ...styles.photoFrame, width: isTablet ? 260 : 340, height: isTablet ? 320 : 420 }}>
@@ -132,7 +126,7 @@ const styles: Record<string, React.CSSProperties> = {
     fontFamily: 'var(--mono)', fontSize: '0.72rem', letterSpacing: '0.1em',
     textTransform: 'uppercase', color: 'var(--muted)', marginBottom: '1.75rem', marginTop: '0.75rem',
   },
-  desc: { fontSize: '1rem', color: 'var(--muted)', maxWidth: 420, lineHeight: 1.85 },
+  desc: { fontSize: '1rem', color: 'var(--muted)', maxWidth: 480, lineHeight: 1.85 },
   actions: { display: 'flex', gap: '0.85rem', flexWrap: 'wrap' },
   btnPrimary: {
     fontFamily: 'var(--mono)', fontSize: '0.72rem', letterSpacing: '0.1em',
