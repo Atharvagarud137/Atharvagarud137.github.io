@@ -39,20 +39,13 @@ export const About: React.FC = () => {
           transition={{ duration: 0.6 }}
         >
           <p style={styles.para}>
-            I'm a QA Automation Engineer at <strong>Worldline Global Services</strong>, specialising
-            in test automation for Mastercard and VISA payment flows. With a B.Tech in Information
-            Technology from PCCOE Pune, I combine engineering fundamentals with deep fintech domain knowledge.
+            I'm an <strong>SDET &amp; Automation Engineer</strong> at <strong>Worldline Global Services</strong>, with 2+ years of experience designing high-volume payment transaction testing for global financial networks including Mastercard, VISA, CUP, Diners, and JCB. I'm ISTQB Certified and hold a B.Tech in Information Technology from PCCOE, Pune.
           </p>
           <p style={styles.para}>
-            My core focus is <strong>shift-left testing</strong> — embedding quality early in the
-            development cycle to prevent defects rather than just detect them. I architect Python-based
-            automation pipelines, maintain CI/CD-integrated regression suites, and have a track record
-            of catching critical production defects before they reach live payment processing.
+            My work focuses on <strong>Python-based automation, transaction validation, API and regression testing</strong>, and maintaining traceable test records under PCI-DSS requirements. Recent work includes automating 30+ daily payment flow types and reducing defect detection and reporting time from 1.5 hours to 30 minutes per flow.
           </p>
           <p style={styles.para}>
-            Beyond my day job, I build ML-powered validation tools and explore the intersection of
-            AI and software quality — applying imbalanced dataset handling and model evaluation pipelines
-            to fraud detection and deepfake identification.
+            Outside my day-to-day role, I build QA-focused payment and diagnostic platforms, and explore AI-assisted incident analysis using RAG, vector search, and LLM integrations.
           </p>
         </motion.div>
 
