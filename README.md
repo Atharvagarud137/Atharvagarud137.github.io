@@ -18,10 +18,8 @@ This repository contains the source code for my personal portfolio website, buil
 
 ## Resume
 
-*   **LaTeX source:** [resume/Atharva_Garud_Resume.tex](resume/Atharva_Garud_Resume.tex)
-*   The source is formatted for a one-page A4 resume and includes direct links to the portfolio and featured project repositories.
-*   To generate the PDF locally, run `pdflatex resume/Atharva_Garud_Resume.tex` from the repository root (with a LaTeX distribution installed).
-*   Keep the downloadable resume file and the source in sync whenever experience, project metrics, or certifications change.
+The latest resume is available [here](https://drive.google.com/file/d/1M9c8GWxgPglhBUTvAeRynwEHgBRuujD0/view?usp=drivesdk). The editable LaTeX source is maintained in `resume/Atharva_Garud_Resume.tex`.
+
 
 ## Tech Stack
 
