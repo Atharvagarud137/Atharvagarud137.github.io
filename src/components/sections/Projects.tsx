@@ -43,12 +43,14 @@ const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, i
       <div style={styles.tech}>
         {project.tech.map((t) => <span key={t} style={styles.techBadge}>{t}</span>)}
       </div>
-      <a href={project.link} target="_blank" rel="noopener noreferrer" style={styles.link}>
-        View on GitHub{' '}
-        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-          <path d="M1 11L11 1M11 1H4M11 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      </a>
+      {project.link && (
+        <a href={project.link} target="_blank" rel="noopener noreferrer" style={styles.link}>
+          View on GitHub{' '}
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <path d="M1 11L11 1M11 1H4M11 1V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </a>
+      )}
     </motion.div>
   );
 };
